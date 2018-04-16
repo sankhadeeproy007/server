@@ -20,7 +20,7 @@ export function* fetchUserRequest(action) {
 //   return axios.get('/api/current_user').then(response => {
 //     return response;
 //   });
-};
+// };
 
 const fetchUserData = async () => {
   const response = await axios.get('/api/current_user');
