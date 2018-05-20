@@ -24,7 +24,10 @@ class Header extends Component {
                 </li>
               ) : (
                 <Fragment>
-                  <Payments />
+                  <li>
+                    <Payments />
+                  </li>
+                  <li style={{ margin: '0 10px' }}>Credits: {user.credits}</li>
                   <li>
                     <a href="/api/logout">Logout</a>
                   </li>
