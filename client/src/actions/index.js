@@ -1,3 +1,4 @@
 import { fetchUser } from './authActions';
+import { handleToken } from './paymentActions';
 
-export { fetchUser };
+export { fetchUser, handleToken };
